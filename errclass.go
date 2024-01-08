@@ -1,4 +1,5 @@
-package errtype
+// errclass is an error classification utility
+package errclass
 
 import "fmt"
 
