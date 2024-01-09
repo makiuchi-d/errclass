@@ -16,12 +16,12 @@ func ExampleErrClass() {
 
 	// check the error is a MyErr
 	if errors.Is(err, MyErr) {
-		fmt.Println("err is MyErr")
+		fmt.Println("err is a MyErr")
 	}
 
 	fmt.Printf("err: %v", err)
 
 	// output:
-	// err is MyErr
+	// err is a MyErr
 	// err: some error
 }

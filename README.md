@@ -3,7 +3,7 @@ errclass is an error classification utility
 
 Usage:
 
-```
+```go
 // create an ErrClass
 var MyErr = errclass.New("My Error")
 
@@ -12,9 +12,9 @@ err := MyErr(errors.New("some error"))
 
 // check the error is a MyErr
 if errors.Is(err, MyErr) {
-	fmt.Println("err is an MyErr")
+	fmt.Println("err is a MyErr")
 }
 
 // output:
-// err is an MyErr
+// err is a MyErr
 ```
